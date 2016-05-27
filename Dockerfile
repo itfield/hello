@@ -1,7 +1,7 @@
 FROM docker:1.9-git
 
 RUN apk add --update \
-		bash \
+	      bash \
 	&& rm -rf /var/cache/apk/*
 
 ENV DIR /usr/src/official-images
