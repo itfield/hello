@@ -1,5 +1,4 @@
 hello git
-its ls
 main
 test-1
 test-2
