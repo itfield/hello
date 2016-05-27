@@ -7,6 +7,6 @@ RUN apk add --update \
 ENV DIR /usr/src/official-images
 WORKDIR $DIR
 COPY . $DIR
-RUN ln -s "$(readlink -f bashbrew/bashbrew.sh)" /usr/local/bin/bashbrew
+RUN ln -s "$(readlink -f bashbrew/bashbrew.sh)"/usr/local/bin/bashbrew
 
 VOLUME $DIR/bashbrew/logs $DIR/bashbrew/src
